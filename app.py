@@ -42,8 +42,8 @@ class Workshop:
             print("{}. {} - {}".format(index+1, student.full_name, student.reason))
         print("Instructors")
         for index, instructor in enumerate(self.instructors):
-            print("{}. {} - {} \n {}".format(index+1, instructor.full_name,
-                                             instructor.skills, instructor.bio))
+            print("{}. {} - {} \n {}".format(index+1,
+                                             instructor.full_name, instructor.skills, instructor.bio))
 
 
 workshop = Workshop("12/03/2014", "Shutl")
